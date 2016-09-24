@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{442EE702-85CE-35C9-56E0-E41281EE0364}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\2DDL\2DLight\AssetUtility\AssetUtility.cs" />
+     <Compile Include="Assets\2DDL\2DLight\CheckUpdate\CheckUpdateAsset.cs" />
+     <Compile Include="Assets\2DDL\2DLight\CheckUpdate\CheckUpdateBuilder.cs" />
+     <Compile Include="Assets\2DDL\2DLight\CheckUpdate\CheckUpdateWindow.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Core\CasterCollider.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Core\DynamicLight.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\DynamicLightSetting.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\SettingsManager.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\SettingsWindow.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Settings\TagLayerClass.cs" />
+     <Compile Include="Assets\2DDL\Examples\0 - First Simple\AnimateFireSprite.cs" />
+     <Compile Include="Assets\2DDL\Examples\0 - First Simple\punchRadius.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\BlinkLight.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\CatchTheBlueTorch.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\CharacterMovement.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\CreditsScript.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\OpenEgyptianGate.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\SetProximityFactor.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\UnlockTheExitDoor.cs" />
+     <Compile Include="Assets\2DDL\Examples\00 - DUNGEON - GAME\followPlayer.cs" />
+     <Compile Include="Assets\2DDL\Examples\12 - AddCastersDynamically\UsingAddColliderToScene.cs" />
+     <Compile Include="Assets\2DDL\Examples\12 - AddCastersDynamically\addingCastersUnefficient.cs" />
+     <Compile Include="Assets\2DDL\Examples\12.1 - DeleteCastersInRuntime\DeleteCasters.cs" />
+     <Compile Include="Assets\2DDL\Examples\13 - ProceduralLightAndCastersCrafting\ProceduralLightAndCasters.cs" />
+     <Compile Include="Assets\2DDL\Examples\2 - MultiplesLights\interface_manager.cs" />
+     <Compile Include="Assets\2DDL\Examples\3 - Visibility and CoverExplosion(shockwave)\ReachedEventManager.cs" />
+     <Compile Include="Assets\2DDL\Examples\3 - Visibility and CoverExplosion(shockwave)\bomb.cs" />
+     <Compile Include="Assets\2DDL\Examples\5 - Events\InstanceEvents.cs" />
+     <Compile Include="Assets\2DDL\Examples\6 - Light with Physics\followBody.cs" />
+     <Compile Include="Assets\2DDL\Examples\8 - ConeOfSight - FieldOfView\bullet.cs" />
+     <Compile Include="Assets\2DDL\Examples\8 - ConeOfSight - FieldOfView\fire.cs" />
+     <Compile Include="Assets\2DDL\Examples\8 - ConeOfSight - FieldOfView\rotate_2.cs" />
+     <Compile Include="Assets\2DDL\Examples\9.0 - Light Car\SpawnCasters.cs" />
+     <Compile Include="Assets\2DDL\Scripts\CharacterController2D\CharacterController2D.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\CoroutineExt\CoroutineExtentions.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\ExtendsMe.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\GLDebug.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\SmoothFollow.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\TablaSenoCoseno.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\TimerClass.cs" />
+     <Compile Include="Assets\2DDL\Scripts\Helpers\interface_touch.cs" />
+     <Compile Include="Assets\2DDL\Scripts\SetRenderQueue.cs" />
+     <Compile Include="Assets\2DDL\Scripts\restoreStone.cs" />
+     <Compile Include="Assets\2DDL\Scripts\rotate.cs" />
+     <Compile Include="Assets\MissileBehaviour.cs" />
+     <Compile Include="Assets\Push.cs" />
+     <Compile Include="Assets\Wind.cs" />
+     <Compile Include="Assets\iA_Moving.cs" />
+     <Compile Include="Assets\iTweenEditor\Examples\StartAndStopTween.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransformArray.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenEvent.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenPath.cs" />
+     <None Include="Assets\2DDL\Shaders\StencilObject.shader" />
+     <None Include="Assets\2DDL\Shaders\DefaultTexturized.shader" />
+     <None Include="Assets\2DDL\Bugs\READ FIRST.txt" />
+     <None Include="Assets\Plugins\Example Games\Flappy Bird Style\_ReadMe.txt" />
+     <None Include="Assets\2DDL\Shaders\RadialGradientAlphaBlend.shader" />
+     <None Include="Assets\2DDL\Shaders\DepthMask.shader" />
+     <None Include="Assets\2DDL\Shaders\CGTexturizing.shader" />
+     <None Include="Assets\iTweenEditor\README.txt" />
+     <None Include="Assets\2DDL\Shaders\OffsetShader.shader" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Circle.shader" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Wipe.shader" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Texture.shader" />
+     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
+     <None Include="Assets\Plugins\Example Games\Angry Birds Style\_ReadMe.txt" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Blinds.shader" />
+     <None Include="Assets\2DDL\Shaders\StencilMask.shader" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\Letterbox\Resources\Letterbox.shader" />
+     <None Include="Assets\2DDL\Shaders\VertexColor.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\ProCamera2D\README.txt" />
+     <None Include="Assets\Plugins\Example Games\2D Scrolling Shooter\Fonts\PressStart2P-Regular\OFL.txt" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Shutters.shader" />
+     <None Include="Assets\Plugins\ProCamera2D\TransitionFX Textures\README.txt" />
+     <None Include="Assets\Plugins\Example Games\Hat Trick - The Catch Game\_ReadMe.txt" />
+     <None Include="Assets\2DDL\Shaders\Gradient-ZFighting.shader" />
+     <None Include="Assets\Plugins\Example Games\Hat Trick - The Catch Game\Fonts\LuckiestGuy\LICENSE.txt" />
+     <None Include="Assets\Plugins\Example Games\2D Scrolling Shooter\_ReadMe.txt" />
+     <None Include="Assets\Plugins\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Fade.shader" />
+     <None Include="Assets\Fonts\PressStart2P-Regular\OFL.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3C23F5CE-DFEF-B876-D679-0BF5DB4B037B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
